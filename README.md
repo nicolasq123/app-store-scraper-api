@@ -1,3 +1,13 @@
+# 简介
+1. fork from facundoolano/app-store-scraper
+2. 加了api功能
+3. 加了dockerfile/makefile
+
+
+## quick start
+1. meke -B build run
+2. curl 'http://127.0.0.1:3301/app?id={your-appstore-id}'
+
 # app-store-scraper [![Build Status](https://secure.travis-ci.org/facundoolano/app-store-scraper.png)](http://travis-ci.org/facundoolano/app-store-scraper)
 Node.js module to scrape application data from the iTunes/Mac App Store.
 The goal is to provide an interface as close as possible to the
